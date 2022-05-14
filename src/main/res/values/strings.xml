@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Resto\'s</string>
+    <string name="resto_s_cashier">Resto\'s Cashier</string>
+    <string name="nama_customer">Nama Customer :</string>
+    <string name="makanan">Makanan</string>
+    <string name="chicken_rice">Honey Garlic Chicken Rice </string>
+    <string name="beef_burger">Beef Burger </string>
+    <string name="jumlah">Jumlah : </string>
+    <string name="ice_cream_cone">Ice Cream Cone </string>
+    <string name="flurry_oreo">Flurry Oreo </string>
+    <string name="fanta_float">Fanta Float </string>
+    <string name="regular_fries">Regular Fries</string>
+    <string name="minuman">Minuman</string>
+    <string name="order">Order</string>
+    <string name="tambah">Tambah</string>
+    <string name="harga">Harga :</string>
+    <string name="reset">Reset</string>
+    <string name="cetak_struk">Cetak Struk</string>
+    <string name="total_bayar">Total Bayar :</string>
+    <string name="sub_total">Sub Total :</string>
+    <string name="pajak">Pajak :</string>
+    <string name="tunai">Tunai :</string>
+    <string name="kembalian">Kembalian :</string>
+    <string name="keterangan">Keterangan :</string>
+    <string name="bayar">Bayar</string>
+    <string name="header">RESTO\'S</string>
+    <string name="garis">=============================================</string>
+    <string name="tanggal_pemesanan">Tanggal Pemesanan : </string>
+    <string name="thank">Terimakasih Telah Berbelanja di Resto\'s :)</string>
+</resources>

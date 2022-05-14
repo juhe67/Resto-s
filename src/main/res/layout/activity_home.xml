@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/primary"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txt_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+
+    <TextView
+        android:id="@+id/txt_garis3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/garis"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:drawable/screen_background_light_transparent">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tanggal_pemesanan"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/edit_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:autofillHints=""
+            tools:ignore="LabelFor,UnusedAttribute" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_customer"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:drawable/screen_background_light_transparent">
+
+        <TextView
+            android:id="@+id/txt_makanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_hma"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_jma"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:drawable/screen_background_light_transparent">
+        <TextView
+            android:id="@+id/txt_minuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_hmi"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_jmi"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_garis2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/garis"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:drawable/screen_background_light_transparent">
+
+        <TextView
+            android:id="@+id/txt_subtot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_total"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_pajak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pajak"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_bayar"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/txt_tunai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tunai"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_kembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kembalian"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_garis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/garis"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+    <TextView
+        android:id="@+id/txt_thank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thank"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@android:drawable/screen_background_light_transparent"/>
+</LinearLayout>
