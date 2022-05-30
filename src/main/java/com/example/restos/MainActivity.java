@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             jumlahmi = Double.parseDouble(jmi);
 
             subtot = ( (hargama * jumlahma) + (hargami * jumlahmi) );
-            pajak = (subtot * 0.01);
+            pajak = (subtot * 0.1);
             total = (subtot+pajak);
 
             editSubtot.setText(formatRupiah(subtot));
